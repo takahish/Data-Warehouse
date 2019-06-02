@@ -1,0 +1,11 @@
+artist,auth,first_name,gender,item_in_session,last_name,length,level,location,method,page,registration,session_id,song,status,ts,user_agent,user_id
+,Logged Out,,,0,,,free,,PUT,Login,,52,,307,1541207073796,,
+,Logged In,Celeste,F,1,Williams,,free,Klamath Falls, OR,GET,Home,1541077528796,52,,200,1541207123796,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36",53
+Mynt,Logged In,Celeste,F,2,Williams,166.94811999999999,free,Klamath Falls, OR,PUT,NextSong,1541077528796,52,Playa Haters,200,1541207150796,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36",53
+Taylor Swift,Logged In,Celeste,F,3,Williams,230.47791000000001,free,Klamath Falls, OR,PUT,NextSong,1541077528796,52,You Belong With Me,200,1541207316796,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36",53
+Amy Winehouse,Logged In,Celeste,F,4,Williams,229.85097999999999,free,Klamath Falls, OR,PUT,NextSong,1541077528796,52,Valerie,200,1541207546796,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36",53
+Jimmy Eat World,Logged In,Celeste,F,5,Williams,285.83138000000002,free,Klamath Falls, OR,PUT,NextSong,1541077528796,52,Dizzy,200,1541207775796,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36",53
+,Logged Out,,,0,,,free,,GET,Home,,18,,200,1541239749796,,
+Maldita Nerea,Logged In,Anabelle,F,0,Simpson,241.16200000000001,free,Philadelphia-Camden-Wilmington, PA-NJ-DE-MD,PUT,NextSong,1541044398796,158,Supelicula,200,1541254670796,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36",69
+Fluke,Logged In,Connar,M,0,Moreno,478.92853000000002,free,Houston-The Woodlands-Sugar Land, TX,PUT,NextSong,1540823606796,168,Bermuda,200,1541257880796,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/538.46 (KHTML, like Gecko) Version/8.0 Safari/538.46",62
+Habib KoitÃÂ©,Logged In,Jayden,M,0,Fox,285.15219999999999,free,New Orleans-Metairie, LA,PUT,NextSong,1541033612796,185,Din Din Wo,200,1541259368796,"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36",101

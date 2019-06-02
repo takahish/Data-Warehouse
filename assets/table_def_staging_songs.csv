@@ -1,0 +1,11 @@
+schemaname,tablename,column,type,encoding,distkey,sortkey,notnull
+public,staging_songs,num_songs,character varying(256),none,false,0,false
+public,staging_songs,artist_id,character varying(256),lzo,false,0,false
+public,staging_songs,artist_latitude,character varying(256),none,false,0,false
+public,staging_songs,artist_longitude,character varying(256),none,false,0,false
+public,staging_songs,artist_location,character varying(256),none,false,0,false
+public,staging_songs,artist_name,character varying(256),lzo,false,0,false
+public,staging_songs,song_id,character varying(256),lzo,false,0,false
+public,staging_songs,title,character varying(256),lzo,false,0,false
+public,staging_songs,duration,character varying(256),lzo,false,0,false
+public,staging_songs,year,character varying(256),none,false,0,false

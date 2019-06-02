@@ -1,0 +1,6 @@
+schemaname,tablename,column,type,encoding,distkey,sortkey,notnull
+public,artists,artist_id,character varying(256),lzo,false,0,true
+public,artists,name,character varying(256),lzo,false,0,true
+public,artists,location,character varying(256),lzo,false,0,false
+public,artists,latitude,double precision,none,false,0,false
+public,artists,longitude,double precision,none,false,0,false

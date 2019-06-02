@@ -1,0 +1,8 @@
+schemaname,tablename,column,type,encoding,distkey,sortkey,notnull
+public,time,start_time,bigint,lzo,false,0,true
+public,time,hour,integer,lzo,false,0,true
+public,time,day,integer,lzo,false,0,true
+public,time,week,integer,lzo,false,0,true
+public,time,month,integer,lzo,false,0,true
+public,time,year,integer,lzo,false,0,true
+public,time,weekday,integer,lzo,false,0,true

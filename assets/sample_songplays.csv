@@ -1,0 +1,11 @@
+songplay_id,start_time,user_id,level,song_id,artist_id,session_id,lcation,user_agent
+48,1541411992796,95,paid,SOUZYTS12A58A7975E,ARGZE0X1187FB430E5,222,Winston-Salem, NC,"Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D257 Safari/9537.53"
+112,1542098983796,25,paid,SOOWGFL12A6D4F81BD,ARVG4OK1187B9B6BD3,442,Marinette, WI-MI,"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36"
+176,1542171963796,10,free,SOHNLUR12AB018950C,ARDN99S1187B995D72,484,Washington-Arlington-Alexandria, DC-VA-MD-WV,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4"
+240,1542401921796,49,paid,SOJMUAN12AB0183911,ARMS97V1187B99DD98,648,San Francisco-Oakland-Hayward, CA,Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0
+304,1541150355796,15,paid,SOUVWYW12AB018A471,AR8ICRA1187B9B8A5F,172,Chicago-Naperville-Elgin, IL-IN-WI,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1985.125 Chrome/36.0.1985.125 Safari/537.36"
+368,1542412748796,49,paid,SORDPMD12A8C13941B,ARAXU5Z1187B98FECD,648,San Francisco-Oakland-Hayward, CA,Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0
+432,1542382561796,26,free,SOTTKFE12A6D4F9AFE,AR73S4G1187B9A03C2,660,San Jose-Sunnyvale-Santa Clara, CA,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1985.125 Chrome/36.0.1985.125 Safari/537.36"
+496,1543600424796,16,paid,SOAEILM12A8C13AC54,ARVXU2X1187B9AE6D8,1076,Birmingham-Hoover, AL,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4"
+560,1543239117796,36,paid,SOVPSWY12A58A7B83F,ARF91NB1187B98BDB8,808,Janesville-Beloit, WI,"Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36"
+624,1543563757796,49,paid,SOBNSFW12A67020E2E,ARJIK0D1187B995E14,1079,San Francisco-Oakland-Hayward, CA,Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0
