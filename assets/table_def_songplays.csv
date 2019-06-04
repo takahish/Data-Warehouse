@@ -1,10 +1,10 @@
 schemaname,tablename,column,type,encoding,distkey,sortkey,notnull
 public,songplays,songplay_id,bigint,lzo,false,0,true
-public,songplays,start_time,bigint,lzo,false,0,true
+public,songplays,start_time,timestamp without time zone,lzo,false,0,true
 public,songplays,user_id,character varying(256),lzo,false,0,true
-public,songplays,level,character varying(256),lzo,false,0,true
+public,songplays,level,character varying(256),lzo,false,0,false
 public,songplays,song_id,character varying(256),lzo,false,0,true
 public,songplays,artist_id,character varying(256),lzo,false,0,true
-public,songplays,session_id,character varying(256),lzo,false,0,true
+public,songplays,session_id,integer,lzo,false,0,false
 public,songplays,lcation,character varying(256),lzo,false,0,false
 public,songplays,user_agent,character varying(256),lzo,false,0,false

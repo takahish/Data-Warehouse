@@ -1,6 +1,6 @@
 schemaname,tablename,column,type,encoding,distkey,sortkey,notnull
 public,users,user_id,character varying(256),lzo,false,0,true
-public,users,first_name,character varying(256),lzo,false,0,true
-public,users,last_name,character varying(256),lzo,false,0,true
+public,users,first_name,character varying(256),lzo,false,0,false
+public,users,last_name,character varying(256),lzo,false,0,false
 public,users,gender,character varying(256),lzo,false,0,false
-public,users,level,character varying(256),lzo,false,0,true
+public,users,level,character varying(256),lzo,false,0,false

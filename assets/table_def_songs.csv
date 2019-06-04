@@ -1,6 +1,6 @@
 schemaname,tablename,column,type,encoding,distkey,sortkey,notnull
 public,songs,song_id,character varying(256),lzo,false,0,true
-public,songs,title,character varying(256),lzo,false,0,true
+public,songs,title,character varying(256),lzo,false,0,false
 public,songs,artist_id,character varying(256),lzo,false,0,true
 public,songs,year,integer,lzo,false,0,false
-public,songs,duration,double precision,none,false,0,true
+public,songs,duration,double precision,none,false,0,false

@@ -3,17 +3,17 @@ public,staging_events,artist,character varying(256),none,false,0,false
 public,staging_events,auth,character varying(256),none,false,0,false
 public,staging_events,first_name,character varying(256),none,false,0,false
 public,staging_events,gender,character varying(256),none,false,0,false
-public,staging_events,item_in_session,character varying(256),none,false,0,false
+public,staging_events,item_in_session,integer,none,false,0,false
 public,staging_events,last_name,character varying(256),none,false,0,false
-public,staging_events,length,character varying(256),none,false,0,false
+public,staging_events,length,double precision,none,false,0,false
 public,staging_events,level,character varying(256),none,false,0,false
 public,staging_events,location,character varying(256),none,false,0,false
 public,staging_events,method,character varying(256),none,false,0,false
 public,staging_events,page,character varying(256),none,false,0,false
-public,staging_events,registration,character varying(256),none,false,0,false
-public,staging_events,session_id,character varying(256),none,false,0,false
+public,staging_events,registration,bigint,none,false,0,false
+public,staging_events,session_id,integer,none,false,0,false
 public,staging_events,song,character varying(256),none,false,0,false
-public,staging_events,status,character varying(256),none,false,0,false
-public,staging_events,ts,character varying(256),none,false,0,false
+public,staging_events,status,integer,none,false,0,false
+public,staging_events,ts,bigint,none,false,0,false
 public,staging_events,user_agent,character varying(256),lzo,false,0,false
 public,staging_events,user_id,character varying(256),none,false,0,false

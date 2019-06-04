@@ -19,6 +19,13 @@ Created tables must be stored into Redshift. In addtition for analyzing user act
 - elt.py: define the ETL process
 - sql_queries.py: define the SQL queries
 
+## Functions
+
+- create_tables.drop_tables: Drop tables
+- create_tables.create_tables: Create tables
+- etl.load_staging_tables: Load json files to staging_tables
+- etl.insert_tables: Insert staging data to fact and dimension tables
+
 ## Data
 
 ### Songs metadata
@@ -106,12 +113,12 @@ $ python etl.py
 |schemaname|tablename|column|type|encoding|distkey|sortkey|notnull|
 |-----|-----|-----|-----|-----|-----|-----|-----|
 |public|songplays|songplay_id|bigint|lzo|FALSE|0|TRUE|
-|public|songplays|start_time|bigint|lzo|FALSE|0|TRUE|
+|public|songplays|start_time|timestamp without time zone|lzo|FALSE|0|TRUE|
 |public|songplays|user_id|character varying(256)|lzo|FALSE|0|TRUE|
-|public|songplays|level|character varying(256)|lzo|FALSE|0|TRUE|
+|public|songplays|level|character varying(256)|lzo|FALSE|0|FALSE|
 |public|songplays|song_id|character varying(256)|lzo|FALSE|0|TRUE|
 |public|songplays|artist_id|character varying(256)|lzo|FALSE|0|TRUE|
-|public|songplays|session_id|character varying(256)|lzo|FALSE|0|TRUE|
+|public|songplays|session_id|integer|lzo|FALSE|0|FALSE|
 |public|songplays|lcation|character varying(256)|lzo|FALSE|0|FALSE|
 |public|songplays|user_agent|character varying(256)|lzo|FALSE|0|FALSE|
 
@@ -124,10 +131,10 @@ $ python etl.py
 |schemaname|tablename|column|type|encoding|distkey|sortkey|notnull|
 |-----|-----|-----|-----|-----|-----|-----|-----|
 |public|users|user_id|character varying(256)|lzo|FALSE|0|TRUE|
-|public|users|first_name|character varying(256)|lzo|FALSE|0|TRUE|
-|public|users|last_name|character varying(256)|lzo|FALSE|0|TRUE|
+|public|users|first_name|character varying(256)|lzo|FALSE|0|FALSE|
+|public|users|last_name|character varying(256)|lzo|FALSE|0|FALSE|
 |public|users|gender|character varying(256)|lzo|FALSE|0|FALSE|
-|public|users|level|character varying(256)|lzo|FALSE|0|TRUE|
+|public|users|level|character varying(256)|lzo|FALSE|0|FALSE|
 
 <a href="assets/sample_users.csv">samples</a>
 
@@ -136,10 +143,10 @@ $ python etl.py
 |schemaname|tablename|column|type|encoding|distkey|sortkey|notnull|
 |-----|-----|-----|-----|-----|-----|-----|-----|
 |public|songs|song_id|character varying(256)|lzo|FALSE|0|TRUE|
-|public|songs|title|character varying(256)|lzo|FALSE|0|TRUE|
+|public|songs|title|character varying(256)|lzo|FALSE|0|FALSE|
 |public|songs|artist_id|character varying(256)|lzo|FALSE|0|TRUE|
 |public|songs|year|integer|lzo|FALSE|0|FALSE|
-|public|songs|duration|double precision|none|FALSE|0|TRUE|
+|public|songs|duration|double precision|none|FALSE|0|FALSE|
 
 <a href="assets/sample_songs.csv">samples</a>
 
@@ -148,7 +155,7 @@ $ python etl.py
 |schemaname|tablename|column|type|encoding|distkey|sortkey|notnull|
 |-----|-----|-----|-----|-----|-----|-----|-----|
 |public|artists|artist_id|character varying(256)|lzo|FALSE|0|TRUE|
-|public|artists|name|character varying(256)|lzo|FALSE|0|TRUE|
+|public|artists|name|character varying(256)|lzo|FALSE|0|FALSE|
 |public|artists|location|character varying(256)|lzo|FALSE|0|FALSE|
 |public|artists|latitude|double precision|none|FALSE|0|FALSE|
 |public|artists|longitude|double precision|none|FALSE|0|FALSE|
@@ -159,13 +166,13 @@ $ python etl.py
 
 |schemaname|tablename|column|type|encoding|distkey|sortkey|notnull|
 |-----|-----|-----|-----|-----|-----|-----|-----|
-|public|time|start_time|bigint|lzo|FALSE|0|TRUE|
-|public|time|hour|integer|lzo|FALSE|0|TRUE|
-|public|time|day|integer|lzo|FALSE|0|TRUE|
-|public|time|week|integer|lzo|FALSE|0|TRUE|
-|public|time|month|integer|lzo|FALSE|0|TRUE|
-|public|time|year|integer|lzo|FALSE|0|TRUE|
-|public|time|weekday|integer|lzo|FALSE|0|TRUE|
+|public|time|start_time|timestamp without time zone|lzo|FALSE|0|TRUE|
+|public|time|hour|integer|lzo|FALSE|0|FALSE|
+|public|time|day|integer|lzo|FALSE|0|FALSE|
+|public|time|week|integer|lzo|FALSE|0|FALSE|
+|public|time|month|integer|lzo|FALSE|0|FALSE|
+|public|time|year|integer|lzo|FALSE|0|FALSE|
+|public|time|weekday|integer|lzo|FALSE|0|FALSE|
 
 <a href="assets/sample_time.csv">samples</a>
 
